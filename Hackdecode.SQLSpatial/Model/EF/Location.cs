@@ -18,5 +18,6 @@ namespace Hackdecode.SQLSpatial.Model.EF
         public string Latitude { get; set; }
         public string Longitude { get; set; }
         public System.Data.Entity.Spatial.DbGeography GeoLocation { get; set; }
+        public string Address { get; set; }
     }
 }
